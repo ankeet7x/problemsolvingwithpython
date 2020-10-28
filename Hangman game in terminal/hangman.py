@@ -1,6 +1,6 @@
 import random
 
-name = input("What's your name nigga ?")
+name = input("What's your name ?")
 
 print("Hey " + name + " Let's play")
 
