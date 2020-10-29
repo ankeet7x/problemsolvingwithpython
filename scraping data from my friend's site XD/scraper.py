@@ -5,7 +5,7 @@ import pandas as pd
 page = requests.get('http://sangamkhanal.com.np')
 soup = BeautifulSoup(page.content, 'html.parser')
 
-posts = soup.find(class_='posts')
+posts = soup.find_all(class_='post-list')
 # postTitle = posts.find_all(class_='post-title')
 # postDate = posts.find_all(class_='post-date')
 # postBody = posts.find_all(class_='post')
